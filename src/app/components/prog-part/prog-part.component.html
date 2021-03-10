@@ -1,0 +1,41 @@
+<div class="container" >
+  <div class="cardProgs" >
+    <div class="card mb-3" *ngFor="let item of allData">
+      <div class="row g-0">
+        <div class="col-md-4 " >
+          <div class="divImg">
+            <img
+            [src]="item.image"
+            alt="..."
+            class="img-fluid"
+          />
+          </div>
+         
+        </div>
+        <div class="col-md-8" >
+          <div class="card-body">
+            <div class="col">
+              <div class="row card-title  name">
+                {{item.Name}}
+              </div>
+              <div class="row card-title type">
+                {{item.school}}
+              </div>
+            </div>
+            <div class="row">
+              <div class="col card-title tuttion">TUITION FEE</div>
+              <div class="col card-title fee">{{item.fee}} £ Per Year</div>
+              <div class="col card-title city">{{item.city}}</div>
+              <div class="col card-title button"><a>More info</a> </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<!-- <div>
+    <p *ngFor="let item of x">{{item.Name}}  </p>
+  </div> -->

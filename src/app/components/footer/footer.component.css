@@ -1,0 +1,19 @@
+.footer {
+  margin-left: 372px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.text,
+.media p {
+  width: 375px;
+ 
+  padding-top: 25px;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0.32px;
+  color: #000000;
+  opacity: 0.4;
+}
+
+ 
